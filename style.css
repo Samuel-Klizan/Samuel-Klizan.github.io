@@ -9,6 +9,7 @@
   font-family: 'Chakra Petch', sans-serif;
   text-decoration: none;
   color: var(--white-color);
+  box-sizing: border-box;
 }
 
 html{
@@ -661,6 +662,10 @@ section{
 /*-extra small-*/
 @media screen and (max-width: 576px) {
   
+  .heading h2{
+    font-size: 40px;
+  }
+
   /*---UVOD---*/
   #main-info{
     grid-template-columns: 1fr;
@@ -683,9 +688,17 @@ section{
     margin-right: 5%;
   }
 
+  #main-info .side-info h3:nth-child(n + 2){
+    font-size: 15px;
+  }
+
   /*---ZRUCNOSTI---*/
   #zrucnosti{
     grid-template-columns: 1fr;
+  }
+
+  .icons{
+    gap: 5px;
   }
 
   /*---VZDELANIE---*/
@@ -701,6 +714,11 @@ section{
   #o-mne{
     grid-template-columns: 1fr;
   }
+
+  /*---PROJEKTY---*/
+  #projekty .heading h2{
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -715,6 +733,11 @@ section{
   #zrucnosti{
     grid-template-columns: 1fr;
   }
+
+  .icons{
+    gap: 15px;
+  }
+
 
   /*---VZDELANIE---*/
   #vzdelanie{
@@ -742,6 +765,10 @@ section{
   /*---ZRUCNOSTI---*/
   #zrucnosti{
     grid-template-columns: 1fr;
+  }
+
+  .icons{
+    gap: 40px;
   }
   
   /*---VZDELANIE---*/
@@ -771,6 +798,10 @@ section{
     #zrucnosti{
       grid-template-columns: 1fr 1fr;
     }
+
+    .icons{
+      gap: 40px;
+    }
     
     /*---VZDELANIE---*/
     #vzdelanie{
@@ -798,6 +829,10 @@ section{
   /*---ZRUCNOSTI---*/
   #zrucnosti{
     grid-template-columns: 1fr 1fr;
+  }
+
+  .icons{
+    gap: 40px;
   }
   
   /*---VZDELANIE---*/
