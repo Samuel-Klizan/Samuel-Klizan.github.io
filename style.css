@@ -673,6 +673,10 @@ section{
     gap: 20px;
   }
 
+  #main-info{
+    padding-top: 150px;
+  }
+
   #main-info h1{
     margin-left: 20%;
     margin-right: 10%;
