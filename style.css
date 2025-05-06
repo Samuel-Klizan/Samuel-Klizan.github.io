@@ -475,7 +475,6 @@ nav{
   width: 100%;
   display: block;
   filter: saturate(40%);
-  transition: saturate 0.5s ease-in-out;
 }
 
 .showcase > div{
@@ -557,7 +556,7 @@ nav{
 
 .showcase .content:hover img:nth-child(2) {
   transform: scale(1.1);
-  opacity: 100;
+  opacity: 1;
 }
 
 
