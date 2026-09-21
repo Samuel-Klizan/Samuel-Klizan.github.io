@@ -556,7 +556,7 @@ nav{
 /*Showcase grid*/
 .showcase{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(clamp(100% / 4 + 1px, 350px, 100%), 1fr));
 
   justify-items: center;
   text-align: center;
